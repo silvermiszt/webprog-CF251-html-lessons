@@ -1,8 +1,37 @@
 body {
-    background-color: rgb(26, 193, 212);
+    background-color: rgb(123, 184, 174);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #222;
+    padding: 20px;
 }
 
 h1 {
-  color: rgb(9, 40, 119);
+  color: rgb(156, 107, 1);
   margin-left: 20px;
+}
+
+h3 {
+    color: rgb(199, 110, 0);
+}
+
+h4 {
+    color: rgb(182, 88, 0);
+}
+
+a {
+    color: #2f5d57;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #2f5d57;
+    padding: 8px;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
 }
