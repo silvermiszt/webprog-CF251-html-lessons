@@ -10,40 +10,46 @@
 <body>
 
   <header id="header">
-    <h1>Personal Profile Web Page</h1>
-    <h2>Gabrielle Angela Veridiano</h2>
-    <h3>Hi!~ You can call me Gab :]</h3>
+    <div class="container">
+      <h1>Personal Profile Web Page</h1>
+      <h2>Gabrielle Angela Veridiano</h2>
+      <h3>Hi!~ You can call me Gab :]</h3>
+    </div>
   </header>
 
   <nav id="navigation" aria-label="Page sections">
-    <a href="#education">Education</a> |
-    <a href="#experience">IT Experience</a> |
-    <a href="#hobbies">Hobbies</a> |
-    <a href="#gallery">Gallery</a> |
-    <a href="#resources">Resources</a>
+    <div class="container">
+      <a href="#education">Education</a>
+      <a href="#experience">IT Experience</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#resources">Resources</a>
+    </div>
   </nav>
 
-  <main>
+  <main class="container">
 
     <section id="education">
       <h4>Education / Achievements</h4>
-      <table>
-        <tr>
-          <th>Level</th>
-          <th>School</th>
-          <th>Course/Strand</th>
-        </tr>
-        <tr>
-          <td>College</td>
-          <td>Asia Pacific College</td>
-          <td>BS in Computer Science with Specialization in Cybersecurity and Forensics</td>
-        </tr>
-        <tr>
-          <td>Senior High School</td>
-          <td>Pasay City National Science High School</td>
-          <td>STEM</td>
-        </tr>
-      </table>
+      <div class="table-wrap">
+        <table>
+          <tr>
+            <th>Level</th>
+            <th>School</th>
+            <th>Course/Strand</th>
+          </tr>
+          <tr>
+            <td>College</td>
+            <td>Asia Pacific College</td>
+            <td>BS in Computer Science with Specialization in Cybersecurity and Forensics</td>
+          </tr>
+          <tr>
+            <td>Senior High School</td>
+            <td>Pasay City National Science High School</td>
+            <td>STEM</td>
+          </tr>
+        </table>
+      </div>
     </section>
 
     <section id="experience">
@@ -66,7 +72,7 @@
 
     <section id="gallery">
       <h4>Picture Gallery</h4>
-         <img src="images/jason.jpg" height="300" alt="Jason Todd">
+      <img src="images/jason.jpg" height="300" alt="Jason Todd">
     </section>
 
     <section id="resources">
@@ -78,6 +84,5 @@
     </section>
 
   </main>
-
 </body>
 </html>
