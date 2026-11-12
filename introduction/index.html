@@ -9,76 +9,81 @@
 </head>
 <body>
 
-  <div id="header" class="section">
-    <h1>Personal Profile Web Page</h1>
-    <h2>Gabrielle Angela Veridiano</h2>
-    <h3>Hi!~ You can call me Gab :]</h3>
-  </div>
+  <header id="header">
+    <div class="container">
+      <h1>Personal Profile Web Page</h1>
+      <h2>Gabrielle Angela Veridiano</h2>
+      <h3>Hi!~ You can call me Gab :]</h3>
+    </div>
+  </header>
 
-  <div id="navigation" class="section">
-    <a href="#education">Education</a> |
-    <a href="#experience">IT Experience</a> |
-    <a href="#hobbies">Hobbies</a> |
-    <a href="#gallery">Gallery</a>
-  </div>
+  <nav id="navigation" aria-label="Page sections">
+    <div class="container">
+      <a href="#education">Education</a>
+      <a href="#experience">IT Experience</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#resources">Resources</a>
+    </div>
+  </nav>
 
-  <div id="education" class="section">
-    <h4>Education / Achievements</h4>
-    <table>
-      <tr>
-        <th>Level</th>
-        <th>School</th>
-        <th>Course/Strand</th>
-      </tr>
-      <tr>
-        <td>College</td>
-        <td>Asia Pacific College</td>
-        <td>BS in Computer Science with Specialization in Cybersecurity and Forensics</td>
-      </tr>
-      <tr>
-        <td>Senior High School</td>
-        <td>Pasay City National Science High School</td>
-        <td>STEM</td>
-      </tr>
-    </table>
-  </div>
+  <main class="container">
 
-  <div id="experience" class="section">
-    <h4>IT Experience</h4>
-    <ul>
-      <li>Currently learning HTML, CSS, and GitHub</li>
-    </ul>
-  </div>
+    <section id="education">
+      <h4>Education / Achievements</h4>
+      <div class="table-wrap">
+        <table>
+          <tr>
+            <th>Level</th>
+            <th>School</th>
+            <th>Course/Strand</th>
+          </tr>
+          <tr>
+            <td>College</td>
+            <td>Asia Pacific College</td>
+            <td>BS in Computer Science with Specialization in Cybersecurity and Forensics</td>
+          </tr>
+          <tr>
+            <td>Senior High School</td>
+            <td>Pasay City National Science High School</td>
+            <td>STEM</td>
+          </tr>
+        </table>
+      </div>
+    </section>
 
-  <div id="hobbies" class="section">
-    <h4>Hobbies &amp; Interests</h4>
-    <ul>
-      <li>Watch movies/series/youtube</li>
-      <li>Play video games</li>
-      <li>Read (fiction and non-fiction)</li>
-      <li>Collect cards (pokemon, lorcana, league of legends)</li>
-      <li>Geek about the fandoms I'm in</li>
-    </ul>
-  </div>
+    <section id="experience">
+      <h4>IT Experience</h4>
+      <ul>
+        <li>Currently learning HTML, CSS, and GitHub</li>
+      </ul>
+    </section>
 
-  <div id="gallery" class="section">
-    <h4>Picture Gallery</h4>
-    <table>
-      <tr>
-        <td>
-          <img src="https://static.wikia.nocookie.net/olympians/images/1/10/Percy_Jackson.jpg/revision/latest/scale-to-width-down/1000?cb=20180319172727" height="300" alt="Percy Jackson">
-        </td>
-      </tr>
-    </table>
-  </div>
+    <section id="hobbies">
+      <h4>Hobbies &amp; Interests</h4>
+      <ul>
+        <li>Watch movies/series/youtube</li>
+        <li>Play video games</li>
+        <li>Read (fiction and non-fiction)</li>
+        <li>Collect cards (pokemon, lorcana, league of legends)</li>
+        <li>Geek about the fandoms I'm in</li>
+      </ul>
+    </section>
 
-  <div id="resources" class="section">
-  <h4>Learning Resources</h4>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">W3Schools HTML Tutorial</a></li>
-    <li><a href="https://github.com/silvermiszt/webprog-CF251-html-lessons" target="_blank">My GitHub</a></li>
-  </ul>
-</div>
+    <section id="gallery">
+      <h4>Picture Gallery</h4>
+      <img src="images/jason.jpg" height="300" alt="Jason Todd">
+    </section>
+
+    <section id="resources">
+      <h4>Learning Resources</h4>
+      <ul>
+        <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener">W3Schools HTML Tutorial</a></li>
+        <li><a href="https://github.com/silvermiszt/webprog-CF251-html-lessons" target="_blank" rel="noopener">My GitHub</a></li>
+      </ul>
+    </section>
+
+  </main>
 
 </body>
 </html>
