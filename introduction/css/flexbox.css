@@ -34,17 +34,17 @@ img {
     max-width: 100%;
 }
 
-.flex-container {
+.hobby-list {
   display: flex;
   flex-wrap: wrap;
-  background-color: DodgerBlue;
+  gap: 10px;
 }
 
-.flex-container > div {
+.hobby-list div {
+  flex: 1 1 150px;
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
   padding: 10px;
   text-align: center;
-  font-size: 30px;
+  border-radius: 6px;
 }
+
