@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(123, 184, 174);
+    background-color: rgb(154, 212, 203);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #222;
     padding: 20px;
@@ -22,7 +22,6 @@ a {
     color: #2f5d57;
 }
 
-/* tables */
 table {
     border-collapse: collapse;
 }
@@ -33,7 +32,6 @@ th, td {
     text-align: left;
 }
 
-/* pictures */
 img {
     max-width: 100%;
 }
