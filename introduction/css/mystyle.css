@@ -108,10 +108,12 @@ th {
   background-color: #d3ede9;
 }
 
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 
 @media (max-width: 480px) {
   th, td {
