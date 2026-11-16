@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Gabrielle Angela Veridiano">
   <title>Gab's Personal Profile</title>
-  <link rel="stylesheet" href="css/css-grid.css?version=0.2">
+  <link rel="stylesheet" href="css/flexbox.css?version=0.3">
 </head>
 <body>
 
@@ -23,9 +23,9 @@
   <nav id="navigation" aria-label="Page sections">
     <div class="container">
       <a href="#education">Education</a>
-      <a href="#experience">IT Experience</a>
       <a href="#hobbies">Hobbies</a>
       <a href="#gallery">Gallery</a>
+      <a href="#experience">IT Experience</a>
       <a href="#resources">Resources</a>
     </div>
   </nav>
@@ -55,13 +55,6 @@
       </div>
     </section>
 
-    <section id="experience">
-      <h4>IT Experience</h4>
-      <ul>
-        <li>Currently learning HTML, CSS, and GitHub</li>
-      </ul>
-    </section>
-
     <section id="hobbies">
       <h4>Hobbies &amp; Interests</h4>
       <div class="hobby-list">
@@ -83,13 +76,24 @@
       </div>
     </section>
 
-    <section id="resources">
-      <h4>Learning Resources</h4>
-      <ul>
-        <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener">W3Schools HTML Tutorial</a></li>
-        <li><a href="https://github.com/silvermiszt/webprog-CF251-html-lessons" target="_blank" rel="noopener">My GitHub</a></li>
-      </ul>
-    </section>
+    <div class="two-col-grid">
+
+      <section id="experience">
+        <h4>IT Experience</h4>
+        <ul>
+          <li>Currently learning HTML, CSS, and GitHub</li>
+        </ul>
+      </section>
+
+      <section id="resources">
+        <h4>Learning Resources</h4>
+        <ul>
+          <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener">W3Schools HTML Tutorial</a></li>
+          <li><a href="https://github.com/silvermiszt/webprog-CF251-html-lessons" target="_blank" rel="noopener">My GitHub</a></li>
+        </ul>
+      </section>
+
+    </div>
 
   </main>
 </body>
