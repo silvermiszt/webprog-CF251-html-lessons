@@ -1,15 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 80px 200px;  
+  grid-template-rows: 80px 200px;
   background-color: dodgerblue;
   padding: 5px;
-  gap: 5px;  
+  gap: 5px;
 }
+
 .container div {
   background-color: #f1f1f1;
-  color:#000;
+  color: #000;
   padding: 10px;
   font-size: 30px;
   text-align: center;
+}
+
+.profile {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
