@@ -55,6 +55,11 @@ header h3 {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #f2c14e;
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: rotate(5deg) scale(1.08);
 }
 
 nav {
@@ -72,6 +77,7 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   padding: 12px 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
@@ -91,6 +97,12 @@ section {
   padding: 20px 24px;
   margin-bottom: 20px;
   scroll-margin-top: 60px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(31, 77, 74, 0.25);
 }
 
 h4 {
@@ -122,6 +134,10 @@ th {
   background-color: #d3ede9;
 }
 
+tr:hover td {
+  background-color: #fff4e0;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -140,6 +156,12 @@ img {
   border-radius: 6px;
   padding: 10px;
   text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hobby-list div:hover {
+  background-color: #f2c14e;
+  transform: scale(1.05);
 }
 
 .grid-container {
@@ -153,6 +175,12 @@ img {
   height: 250px;
   object-fit: cover;
   border-radius: 6px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.grid-container img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
 }
 
 .two-col-grid {
