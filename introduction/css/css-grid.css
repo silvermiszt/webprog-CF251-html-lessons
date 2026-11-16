@@ -76,7 +76,7 @@ nav a {
 
 nav a:hover {
   background-color: #1f4d4a;
-  color: #f2c14e;
+  color: #f0a04b;
 }
 
 main {
@@ -135,8 +135,8 @@ img {
 
 .hobby-list div {
   flex: 1 1 150px;
-  background-color: #d3ede9;
-  border: 1px solid #b5d6d0;
+  background-color: #fff4e0;
+  border: 1px solid #f2c14e;
   border-radius: 6px;
   padding: 10px;
   text-align: center;
